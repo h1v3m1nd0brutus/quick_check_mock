@@ -44,7 +44,7 @@ server.post('/keylisten', (req, res) => {
 
 server.get('/keylisten', (req, res) => {
 	console.group(['-- RUN -> keylisten ☆*: .｡. o(≧▽≦)o .｡.:*☆']);
-	const resp = createObjects.getKeylisten(req);
+	const resp = createObjects.getKeylistenList(req);
   
 	res.status(resp.status).json(resp.response);
 },

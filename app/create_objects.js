@@ -254,6 +254,26 @@ module.exports = {
     // return { status: 200, response: response }
   },
 
+
+  getKeylistenList: function (input) {
+
+    const response = {
+      result: {
+        resultSuccess: "True",
+        resultInfo: "",
+        resultCount: keyliste1.length,
+        resultLastInsertId: "",
+        result: null
+      }
+    }
+
+
+      response.result.result = keyliste2;
+      return { status: 200, response: response }
+
+    
+
+  },
   calculateResult: function (input){
 
     const response = {
