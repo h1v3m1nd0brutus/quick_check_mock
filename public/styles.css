@@ -1,0 +1,19 @@
+/* html {
+	font-size: 62.5%;
+} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overscroll-behavior-y: contain;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
